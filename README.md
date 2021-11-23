@@ -1,8 +1,8 @@
 # S3-File-Backup-And-Restore
 Backup and restore files from directory to AWS S3 cloud storage.
 # Requirements
-•	AWS S3 Configured (aws configure)
-__•	Python 3.9+
+•	AWS S3 Configured (aws configure)<br />
+•	Python 3.9+
 This program is an S3 Backup/Restore system that can upload files from your local directory to S3 cloud or restore a directory from the S3 cloud to your local directory. You will need to set up your AWS credentials before using this program.
 
 # Backup – backup(args, s3, session)
