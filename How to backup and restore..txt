@@ -1,0 +1,18 @@
+To Backup, run the program, and type in:
+
+backup local-directory-name s3-bucket-name::s3-directory-name 
+
+- Your local directory needs to be the full system path.
+- Your bucket name needs to be your S3 bucket name or new bucket name.
+- Directory name will be a folder created in your S3 bucket or updated over an existing one.
+
+To restore, run the program, and type in:
+
+restore s3-bucket-name::s3-directory-name local-directory-name
+
+- Your bucket name needs to be your S3 bucket name and an existing directory name
+- Your local directory needs to be the full system path.
+
+Examples:
+restore 1230128380123::linkedin/ C:\Users\Alan\Downloads\LIPicsRestore 
+backup C:\Users\Alan\Documents\Capstone\Reports alainewbucketlol::buckettest
